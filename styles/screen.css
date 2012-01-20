@@ -1,0 +1,221 @@
+/************************/
+/* For IE to render HTML5 elements properly */
+header, footer, article, section, nav, menu { display: block;}
+/*********/
+
+body {
+  color: #222;
+  background: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  vertical-align: baseline;
+  min-height: 1000px;
+  text-rendering: optimizeLegibility;
+}
+
+html>body {
+	font-size: 16px;
+}
+
+.container {
+  background: #fefefe;
+  width: 960px;
+  padding: 0px 20px 20px 20px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+h1 {
+  font-family: 'Josefin Slab', Georgia, serif;
+  font-size: 3em;
+  letter-spacing: .04em;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.05);
+}
+
+h2 {
+  font-weight: 600;
+  margin: 20px 0 5px 0;
+}
+
+section a {
+  text-decoration: none;
+  border-bottom: 1px dotted #444;
+  color: #444;
+}
+
+section p a {
+  color: #e54d26;
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.4em;
+  max-width: 640px;
+  font-size: .93em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+ul li {
+  margin: 10px 0;
+  line-height: 1.6em;
+}
+
+.col2 {
+  width: 20.83333%;
+  margin-right: 3.125%;
+  float: left;
+  clear: both;
+}
+
+.col10 {
+  width: 76.041666%;
+  display: inline-block;
+}
+
+/* Header */
+
+header {
+  padding: 35px 10px 5px 10px;
+  font-size: 1.13em;
+  letter-spacing: .08em;
+  background-color: #fefefe;
+  position: fixed;
+  width: 940px;
+}
+
+header h1 {
+  float: left;
+}
+
+header a.name {
+  text-decoration: none;
+  color: #222;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #777;
+  font-size: 1.1em;
+  border-bottom: none;
+}
+
+nav a.selected {
+  color: #e54d26;
+}
+
+/* sections */
+.container section {
+  padding: 30px 0;  
+}
+
+#intro {
+  padding: 120px 10px 0 10px;
+}
+
+#intro h1 {
+  color: #999;
+  line-height: 1.4em;
+  font-size: 1.8em;
+  font-weight: 100;
+  font-family: 'Josefin Slab', sans-serif;
+}
+
+.writing h2 {
+  text-align: right;
+  font-weight: 600;
+  color: #e54d26;
+  font-size: 1.1em;
+  margin: 22px 0;
+}
+
+.writing ul {
+  margin: 20px 0;
+  font-size: .93em;
+}
+
+#about ul {
+  font-size: .77em;
+}
+
+#about img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+#poem {
+  padding: 120px 0 0 0;
+  font-size: .93em;
+  line-height: 1.4em;
+}
+
+#poem a {
+  margin-left: 10px;
+}
+
+footer {
+  font-size: .7em;
+  margin-top: 80px;
+}
+
+/* Media queries
+---------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: auto;
+    padding: 30px 10px 60px 10px;
+  }
+
+  header {
+    position: relative;
+    text-align: center;
+  }
+
+  header h1 {
+    float: none;
+
+  }
+
+  nav ul {
+    float: none;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header {
+    position: relative;
+  }
+
+  .container {
+    width: auto;
+  }
+}
