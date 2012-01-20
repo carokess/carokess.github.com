@@ -156,6 +156,10 @@ nav a.selected {
   font-size: .93em;
 }
 
+.writing .buffer {
+  margin-top: 20px;
+}
+
 #about ul {
   font-size: .77em;
 }
