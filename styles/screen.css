@@ -179,10 +179,17 @@ nav a.selected {
   margin-left: 10px;
 }
 
+#projects li {
+  margin-bottom: 20px;
+}
+
+#project li:last-child {
+  margin-bottom: 0;
+}
+
 .promo p {
   background: #eee;
   padding: 2px 6px;
-  margin-top: 10px;
   display: inline-block;
 }
 
