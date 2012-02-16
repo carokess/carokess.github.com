@@ -179,6 +179,12 @@ nav a.selected {
   margin-left: 10px;
 }
 
+.promo p {
+  background: #eee;
+  padding: 2px 6px;
+  display: inline-block;
+}
+
 footer {
   font-size: .7em;
   margin-top: 80px;
