@@ -188,7 +188,6 @@ nav a.selected {
   width: 210px;
   height: 140px;
   margin: 0 0 10px 0;
-  background-size: cover;
   border: 1px solid #ccc;
 
   -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
@@ -197,23 +196,23 @@ nav a.selected {
 }
 
 .visual li:first-child figure {
-  background: url("../images/visual01a.jpg") no-repeat;
+  background: url("../images/visual01-thumb.jpg") no-repeat;
 }
 
 .visual li:nth-child(2) figure {
-  background: url("../images/visual02a.jpg") no-repeat;
+  background: url("../images/visual02-thumb.jpg") no-repeat;
 }
 
 .visual li:nth-child(3) figure {
-  background: url("../images/visual03.png") no-repeat 0 -10px;
+  background: url("../images/visual03-thumb.png") no-repeat;
 }
 
 .visual li:nth-child(4) figure {
-  background: url("../images/visual04.png") no-repeat 0 -30px;
+  background: url("../images/visual04-thumb.png") no-repeat;
 }
 
 .visual li:nth-child(5) figure {
-  background: url("../images/visual05a.png") no-repeat;
+  background: url("../images/visual05-thumb.png") no-repeat;
 }
 
 .visual li figcaption {
